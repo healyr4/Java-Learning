@@ -112,7 +112,7 @@ public class CaesarBreaker {
         k1 = getKey(firstString);
         k2 = getKey(secondString);
         // Keys are in opposite order
-        System.out.println("Key1: " +k2 +" Key1 : " +k2);
+        System.out.println("Key1: " +k2 +" Key2 : " +k1);
         
         return cc.encryptTwoKeys(encrypted, 26-k1,26-k2);
     }
